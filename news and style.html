@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>MINIMALISM (Fashion&Beauty)</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style3.css">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/icon-title.ico">
+    <script type="text/javascript" src="assets/lib/jquery.min.js"></script>
+			<script type="text/javascript">
+				$(document).ready(function(){
+					var count = 1;
+					$('#btn-load').click(function(){
+						if(count==1)
+						{
+							$(this).remove();
+						}
+						var html = $('#data_'+count).html();
+						$('#load-content').append(html);
+						count+=1;
+					});
+				});
+			</script>
+  </head>
+  <body>
+    <nav class="bg-header-logo">
+      <div class="wrapper">
+        <div class="logo"></div>
+        <form class="header-form">
+          <input class="search-box-header pull-left" type="search" name="searchbox" placeholder="ค้นหา...">
+          <button class="submit-box-header pull-left" type="submit" name="submit" value="submit">&#xf002;</button>
+        </form>
+      </div>
+    </nav>
+    <div class="line-header"></div>
+    <div class="bg-all">
+      <div class="bg-wrapper">
+    <div class="bg-header-menu clearfix">
+      <div class="wrapper">
+        <div class="menu pull-left">
+        <a href="index.html" class="menu-list pull-left">HOME</a>
+        <p class="pull-left">|</p>
+        <a href="product.html" class="menu-list pull-left">PRODUCT</a>
+        <p class="pull-left">|</p>
+        <a href="news and style.html" class="menu-list2 pull-left">NEWS & STYLE</a>
+        <p class="pull-left">|</p>
+        <a href="#" class="menu-list pull-left">POPULAR</a>
+        <p class="pull-left">|</p>
+        <a href="#" class="menu-list pull-left">CONTACT</a>
+        </div>
+        <div class="icon pull-right">
+        <div class="user pull-left">&#xf007;
+          <span class="tooltipuser"><a href="#">Login</a> / <a href="#">Register</a></span>
+        </div>
+        <div class="cart pull-left">&#xf291;</div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-banner">
+      <div class="wrapper">
+        <div class="banner"></div>
+      </div>
+    </div>
+    <div class="new-news clearfix">
+      <div class="new-news-left pull-left">
+        <div class="news-header">ข่าวสารเกี่ยวกับแฟชั่นสไตล์ MINIMAL</div>
+        <div class="news-box clearfix">
+          <div class="pic-news">
+            <img src="assets/images/news1.jpg">
+          </div>
+          <div class="news-detail">
+            <h2>ห้ามพลาด! แฟชั่นชุดทำงานสไตล์ "มินิมอล" แต่งชิคไปทำงานแบบเจ้านายไม่เขม่นทำไงมาดู</h2>
+            <p>ใครกำลังเรียนจบ จบใหม่ หรืออยู่ในวัยทำงานแล้ว วันนี้เราจะมาแนะนำ แฟชั่นไปทำงานสไตล์มมินิมอล ให้สาวๆ<br>ไม่หลุดเทรนด์แม้ว่าจะเข้าสู่วัยทำงานแล้วก็ตาม แล้วชุดที่เราหามานั้นขอบอกว่าใครที่เป็นมินิมอลต้องชอบ<br>เพราะได้แต่งตัวที่ตัวเองชอบกับงานที่ตัวเองรัก มาดูกัน ว่าจะเป็นยังไง</p>
+          </div>
+          <div id="news-viewmore">คลิกเพื่อดูเพิ่มเติม</div>
+          <!-- The Modal -->
+          <div id="myModal" class="modal">
+          <!-- Modal content -->
+          <div class="modal-content">
+            <div class="modal-header">
+              <span class="close">&#xf00d;</span>
+              <h2>ห้ามพลาด! แฟชั่นชุดทำงานสไตล์ "มินิมอล" แต่งชิคไปทำงานแบบเจ้านายไม่เขม่นทำไงมาดู</h2>
+            </div>
+            <div class="modal-body">
+                  <p>ใครกำลังเรียนจบ จบใหม่ หรืออยู่ในวัยทำงานแล้ว วันนี้เราจะมาแนะนำ แฟชั่นไปทำงานสไตล์มมินิมอล ให้สาวๆ<br>ไม่หลุดเทรนด์แม้ว่าจะเข้าสู่วัยทำงานแล้วก็ตาม แล้วชุดที่เราหามานั้นขอบอกว่าใครที่เป็นมินิมอลต้องชอบ
+            <br>เพราะได้แต่งตัวที่ตัวเองชอบกับงานที่ตัวเองรัก มาดูกัน ว่าจะเป็นยังไง</p>
+                  <div class="img-box">
+                    <img src="assets/images/picnews7.jpg">
+                  </div>
+                  <div class="img-box">
+                    <img src="assets/images/picnews8.jpg">
+                  </div>
+                  <div class="img-box">
+                    <img src="assets/images/picnews9.jpg">
+                  </div>
+                  <div class="img-box">
+                    <img src="assets/images/picnews10.jpg">
+                  </div>
+                  <div class="img-box">
+                    <img src="assets/images/picnews11.jpg">
+                  </div>
+                  <div class="img-box">
+                    <img src="assets/images/picnews12.jpg">
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <h2>แชร์ข่าวนี้</h2>
+                    <div class="img-share pull-left">
+                      <a href="#">&#xf0d4;</a>
+                      <a href="#">&#xf082;</a>
+                      <a href="#">&#xf081;</a>
+                      <a href="#">&#xf16d;</a>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+            <script>
+            // Get the modal
+            var modal = document.getElementById("myModal");
+
+            // Get the button that opens the modal
+            var btn = document.getElementById("news-viewmore");
+
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+
+            // When the user clicks the button, open the modal
+            btn.onclick = function() {
+                modal.style.display = "block";
+            }
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() {
+                modal.style.display = "none";
+            }
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+            </script>
+          <div class="news-comment-box pull-left">
+            <div class="news-comment">
+              <h1 class="pull-left">&#xf27b;</h1><p class="pull-left">3 ความคิดเห็น</p>
+            </div>
+          </div>
+            <div class="news-link-box pull-left">
+              <div class="news-link">
+                <a href="#"class="right-box-news left-box-news">&#xf0d4;</a>
+                <a href="#"class="right-box-news">&#xf082;</a>
+                <a href="#"class="right-box-news">&#xf081;</a>
+                <a href="#">&#xf16d;</a>
+              </div>
+            </div>
+        </div>
+        <div class="space-box">  </div>
+        <div class="news-box clearfix">
+          <div class="pic-news">
+            <img src="assets/images/news2.jpg">
+          </div>
+          <div class="news-detail">
+            <h2>10 ไอเดีย แฟชั่นเสื้อผ้า 'Minimal Style' เลียนแบบ Ulzzang</h2>
+            <p>วันนี้เรามาพร้อมแฟชั่นเสื้อผ้าสำหรับผู้หญิง บอกเลยว่าเป็นแฟชั่นที่มาแรงมากกกก ฉุดไม่อยู่จริงๆ กับ<br>Minimal Style  ไม่ว่าจะสาวเอเชีย สาวยุโรปก็ต่างฮิตใส่กัน ด้วยคำนิยามว่า Less is More<br><br></p>
+          </div>
+          <div id="news-viewmore2">คลิกเพื่อดูเพิ่มเติม</div>
+          <!-- The Modal -->
+          <div id="myModal2" class="modal2">
+          <!-- Modal content -->
+          <div class="modal-content2">
+            <div class="modal-header2">
+              <span class="close2">&#xf00d;</span>
+              <h2>10 ไอเดีย แฟชั่นเสื้อผ้า 'Minimal Style' เลียนแบบ Ulzzang</h2>
+            </div>
+            <div class="modal-body2">
+                  <p>วันนี้เรามาพร้อมแฟชั่นเสื้อผ้าสำหรับผู้หญิง บอกเลยว่าเป็นแฟชั่นที่มาแรงมากกกก ฉุดไม่อยู่จริงๆ กับ<br>Minimal Style ไม่ว่าจะสาวเอเชีย สาวยุโรปก็ต่างฮิตใส่กัน ด้วยคำนิยามว่า Less is More
+            <br>น้อยๆ แต่ดูดีที่ตีตลาดเจ้าแม่แฟชั่นให้หันมาแต่งตัวเรียบง่ายได้<br>และในบทความนี้ เราได้ขน
+แฟชั่นสไตล์มินิมอลจากเน็ตไอดอลเกาหลี<br>จะเป็นอย่างไรไปชมกันเลย</p>
+            <div class="img-box">
+              <img src="assets/images/10style-1.jpg">
+            </div>
+            <div class="img-box">
+              <img src="assets/images/10style-2.jpg">
+            </div>
+            <div class="img-box">
+              <img src="assets/images/10style-3.jpg">
+            </div>
+            <div class="img-box">
+              <img src="assets/images/10style-4.jpg">
+            </div>
+            <div class="img-box">
+              <img src="assets/images/10style-5.jpg">
+            </div>
+            <div class="img-box">
+              <img src="assets/images/10style-6.jpg">
+            </div>
+            <div class="img-box">
+              <img src="assets/images/10style-7.jpg">
+            </div>
+            <div class="img-box">
+              <img src="assets/images/10style-8.jpg">
+            </div>
+            <div class="img-box">
+              <img src="assets/images/10style-9.jpg">
+            </div>
+            <div class="img-box">
+              <img src="assets/images/10style-10.jpg">
+            </div>
+                </div>
+                <div class="modal-footer2">
+                  <h2>แชร์ข่าวนี้</h2>
+                    <div class="img-share pull-left">
+                      <a href="#">&#xf0d4;</a>
+                      <a href="#">&#xf082;</a>
+                      <a href="#">&#xf081;</a>
+                      <a href="#">&#xf16d;</a>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+            <script>
+            // Get the modal
+            var modal2 = document.getElementById("myModal2");
+
+            // Get the button that opens the modal
+            var btn2 = document.getElementById("news-viewmore2");
+
+            // Get the <span> element that closes the modal
+            var span2 = document.getElementsByClassName("close2")[0];
+
+            // When the user clicks the button, open the modal
+            btn2.onclick = function() {
+                modal2.style.display = "block";
+            }
+            // When the user clicks on <span> (x), close the modal
+            span2.onclick = function() {
+                modal2.style.display = "none";
+            }
+            // When the user clicks anywhere outside of the modal, close it
+            </script>
+          <div class="news-comment-box pull-left">
+            <div class="news-comment">
+              <h1 class="pull-left">&#xf27b;</h1><p class="pull-left">6 ความคิดเห็น</p>
+            </div>
+          </div>
+            <div class="news-link-box pull-left">
+              <div class="news-link">
+                <a href="#"class="right-box-news left-box-news">&#xf0d4;</a>
+                <a href="#"class="right-box-news">&#xf082;</a>
+                <a href="#"class="right-box-news">&#xf081;</a>
+                <a href="#">&#xf16d;</a>
+              </div>
+            </div>
+        </div>
+        <div class="news-back pull-left">&#xf104;</div>
+        <div class="news-back-detail pull-left">อ่านข่าวก่อนหน้านั้น</div>
+        <div class="news-next pull-right">&#xf105;</div>
+        <div class="news-next-detail pull-right">อ่านข่าวถัดไป</div>
+      </div>
+      <div class="new-news-right pull-left">
+        <div class="news-header">ข่าวที่นิยมประจำสัปดาห์</div>
+        <div id="hot-news1" class="hot-news-box clearfix">
+          <div class="hot-news-pic">
+            <img src="assets/images/hot1.jpg">
+          </div>
+          <div class="hot-news-detail">
+            <p>ฮอตสุดติ่ง!<br>"แฟชั่นสีเทา-ดำ"<br>เทรนด์สียอดฮิต มินิมอล<br>ฮิปสเตอร์!</p>
+          </div>
+        </div>
+        <div id="hot-news2" class="hot-news-box clearfix">
+          <div class="hot-news-pic">
+            <img src="assets/images/hot2.jpg">
+          </div>
+          <div class="hot-news-detail">
+            <p>ห้ามพลาด! แฟชั่นชุดทำงานสไตล์ "มินิมอล"แต่งชิคไปทำงานแบบเจ้านายไม่เขม่นทำไงมาดู</p>
+          </div>
+        </div>
+        <div id="hot-news3" class="hot-news-box clearfix">
+          <div class="hot-news-pic">
+            <img src="assets/images/hot3.jpg">
+          </div>
+          <div class="hot-news-detail">
+            <p>40 ไอเดีย แฟชั่นเสื้อผ้า 'Minimal Style' เลียนแบบ Ulzzang</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="upload-box">
+      <div class="line-upload">
+        <div class="upload-file-box pull-left">
+          <form id="myForm">
+          <div id="imagePreview"></div>
+          <input id="uploadFile" type="file" name="image" class="img" />
+          </form>
+        </div>
+        <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+        <script src="assets/js/index.js"></script>
+        <div class="style-upload pull-left">
+          <h2>สไตล์ที่คุณแนะนำ</h2>
+          <form>
+            <textarea class="box-upload" type="Textbox" name="upload" rows="6" cols="20" placeholder="พิมพ์บางอย่างเกี่ยวกับสไตล์นี้"></textarea>
+          </form>
+          <div class="submit-upload" onclick="myFunction()" value="Reset form">อัพโหลด</div>
+          <script>
+          function myFunction() {
+            document.getElementById("myForm").reset();
+          }
+          </script>
+        </div>
+      </div>
+    </div>
+    <div class="upload-pic-box">
+      <div class="upload-head-pic">
+        <h2>สไตล์ที่อัพโหลดล่าสุด</h2>
+      </div>
+      <div id="load-content" class="upload-row1 clearfix">
+        <div class="upload-list pull-left">
+          <img src="assets/images/upload1.jpg">
+          <div class="hover-detail2">
+                <div class="hover-like" type="button" onClick="onClick()">
+                  <img class="like-hover" src="assets/images/like.png">
+                  <a class="likeword-hover pull-left">LIKE</a>
+                </div>
+                <div class="hover-numlike">
+                  <img class="like-hover2" src="assets/images/like2.png">
+                  <p><a id="clicks">20</a></p>
+                </div>
+                <script>
+                  var clicks = 20;
+                  function onClick() {
+                    clicks += 1;
+                    document.getElementById("clicks").innerHTML = clicks;
+                  };
+                  </script>
+          </div>
+          <p class="upload-detail pull-left">MINIMAL โทนสีฟ้า-ขาว</p>
+          <p class="upload-user pull-right">By Admin</p>
+        </div>
+        <div class="upload-list pull-left">
+          <img src="assets/images/upload2.jpg">
+          <div class="hover-detail2">
+                <div class="hover-like" type="button" onClick="onClick2()">
+                  <img class="like-hover" src="assets/images/like.png">
+                  <a class="likeword-hover pull-left">LIKE</a>
+                </div>
+                <div class="hover-numlike">
+                  <img class="like-hover2" src="assets/images/like2.png">
+                  <p><a id="clicks2">25</a></p>
+                </div>
+                <script>
+                  var clicks2 = 25;
+                  function onClick2() {
+                    clicks2 += 1;
+                    document.getElementById("clicks2").innerHTML = clicks2;
+                  };
+                  </script>
+          </div>
+          <p class="upload-detail pull-left">MINIMAL เซอร์ๆ สไตล์ฝรั่ง</p>
+          <p class="upload-user pull-right">By Admin</p>
+        </div>
+        <div class="upload-list pull-left">
+          <img src="assets/images/upload3.jpg">
+          <div class="hover-detail2">
+            <div class="hover-like" type="button" onClick="onClick3()">
+              <img class="like-hover" src="assets/images/like.png">
+              <a class="likeword-hover pull-left">LIKE</a>
+            </div>
+            <div class="hover-numlike">
+              <img class="like-hover2" src="assets/images/like2.png">
+              <p><a id="clicks3">33</a></p>
+            </div>
+            <script>
+              var clicks3 = 33;
+              function onClick3() {
+                clicks3 += 1;
+                document.getElementById("clicks3").innerHTML = clicks3;
+              };
+              </script>
+          </div>
+          <p class="upload-detail pull-left">ชุดทำงานกับยีนส์ MINIMAL STYLE</p>
+          <p class="upload-user pull-right">By Admin</p>
+        </div>
+      </div>
+      <div id="data_1" class="upload-row2 clearfix">
+        <div class="upload-list pull-left">
+          <img src="assets/images/upload4.jpg">
+          <div class="hover-detail2">
+            <div class="hover-like" type="button" onClick="onClick4()">
+              <img class="like-hover" src="assets/images/like.png">
+              <a class="likeword-hover pull-left">LIKE</a>
+            </div>
+            <div class="hover-numlike">
+              <img class="like-hover2" src="assets/images/like2.png">
+              <p><a id="clicks4">40</a></p>
+            </div>
+            <script>
+              var clicks4 = 40;
+              function onClick4() {
+                clicks4 += 1;
+                document.getElementById("clicks4").innerHTML = clicks4;
+              };
+              </script>
+          </div>
+          <p class="upload-detail pull-left">MINIMAL โทนขาว-ดำ</p>
+          <p class="upload-user pull-right">By Admin</p>
+        </div>
+        <div class="upload-list pull-left">
+          <img src="assets/images/upload5.jpg">
+          <div class="hover-detail2">
+            <div class="hover-like" type="button" onClick="onClick5()">
+              <img class="like-hover" src="assets/images/like.png">
+              <a class="likeword-hover pull-left">LIKE</a>
+            </div>
+            <div class="hover-numlike">
+              <img class="like-hover2" src="assets/images/like2.png">
+              <p><a id="clicks5">10</a></p>
+            </div>
+            <script>
+              var clicks5 = 10;
+              function onClick5() {
+                clicks5 += 1;
+                document.getElementById("clicks5").innerHTML = clicks5;
+              };
+              </script>
+          </div>
+          <p class="upload-detail pull-left">โทนขาว-ดำ เข้ากับท้องฟ้าสุดๆ</p>
+          <p class="upload-user pull-right">By Admin</p>
+        </div>
+        <div class="upload-list pull-left">
+          <img src="assets/images/upload6.jpg">
+          <div class="hover-detail2">
+            <div class="hover-like" type="button" onClick="onClick6()">
+              <img class="like-hover" src="assets/images/like.png">
+              <a class="likeword-hover pull-left">LIKE</a>
+            </div>
+            <div class="hover-numlike">
+              <img class="like-hover2" src="assets/images/like2.png">
+              <p><a id="clicks6">5</a></p>
+            </div>
+            <script>
+              var clicks6 = 5;
+              function onClick6() {
+                clicks6 += 1;
+                document.getElementById("clicks6").innerHTML = clicks6;
+              };
+              </script>
+          </div>
+          <p class="upload-detail pull-left">MINIMAL โทนสีขาวและแว่นดำ</p>
+          <p class="upload-user pull-right">By Abby</p>
+        </div>
+      </div>
+      <div id="btn-load" class="submit-viewmore">ดูเพิ่มเติม</div>
+    </div>
+  </div>
+</div>
+<div class="line-header"></div>
+<div class="bg-footer">
+  <div class="wrapper">
+    <div class="footer-left pull-left">
+      <h2>ติดตามข่าวสารของเราได้ที่</h2>
+      <div class="img-contact pull-left">
+        <a href="#">&#xf0d4;</a>
+        <a href="#">&#xf082;</a>
+        <a href="#">&#xf081;</a>
+        <a href="#">&#xf16d;</a>
+      </div>
+    </div>
+    <div class="footer-center pull-left">
+
+    </div>
+    <div class="footer-right pull-left">
+      <h2>สมัครรับข้อมูลข่าวสารต่างๆที่</h2>
+      <form>
+        <input class="box-email pull-left" type="text" name="E-mail" placeholder="อีเมล">
+        <button class="submit-box1 pull-left" type="submit" name="submit" value="submit">สมัคร</button>
+      </form>
+    </div>
+  </div>
+</div>
+<div class="copyright">
+  <p>&copy;Copyright 2016. WebDesign MidteamProject. All Right Reserved.</p>
+</div>
+  </body>
+</html>
